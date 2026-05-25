@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="100%" height="100%">
+  <rect x="0" y="0" width="80" height="80" fill="#5A2F4E" rx="8" />
+  <text x="40" y="100" font-family="'DM Sans', sans-serif" font-size="10" font-weight="bold" fill="#3A1A2E" text-anchor="middle">Aubergine</text>
+  <text x="40" y="112" font-family="monospace" font-size="9" fill="#888" text-anchor="middle">#5A2F4E</text>
+
+  <rect x="100" y="0" width="80" height="80" fill="#3A1A2E" rx="8" />
+  <text x="140" y="100" font-family="'DM Sans', sans-serif" font-size="10" font-weight="bold" fill="#3A1A2E" text-anchor="middle">Dark Body</text>
+  <text x="140" y="112" font-family="monospace" font-size="9" fill="#888" text-anchor="middle">#3A1A2E</text>
+
+  <rect x="200" y="0" width="80" height="80" fill="#D8B060" rx="8" />
+  <text x="240" y="100" font-family="'DM Sans', sans-serif" font-size="10" font-weight="bold" fill="#3A1A2E" text-anchor="middle">Gold</text>
+  <text x="240" y="112" font-family="monospace" font-size="9" fill="#888" text-anchor="middle">#D8B060</text>
+
+  <rect x="300" y="0" width="80" height="80" fill="#F7EFF3" stroke="#C7A6BC" stroke-width="1" rx="8" />
+  <text x="340" y="100" font-family="'DM Sans', sans-serif" font-size="10" font-weight="bold" fill="#3A1A2E" text-anchor="middle">Blush Start</text>
+  <text x="340" y="112" font-family="monospace" font-size="9" fill="#888" text-anchor="middle">#F7EFF3</text>
+
+  <rect x="400" y="0" width="80" height="80" fill="#C7A6BC" rx="8" />
+  <text x="440" y="100" font-family="'DM Sans', sans-serif" font-size="10" font-weight="bold" fill="#3A1A2E" text-anchor="middle">Mauve End</text>
+  <text x="440" y="112" font-family="monospace" font-size="9" fill="#888" text-anchor="middle">#C7A6BC</text>
+
+  <rect x="500" y="0" width="80" height="80" fill="#631C6C" rx="8" />
+  <text x="540" y="100" font-family="'DM Sans', sans-serif" font-size="10" font-weight="bold" fill="#3A1A2E" text-anchor="middle">Gummy</text>
+  <text x="540" y="112" font-family="monospace" font-size="9" fill="#888" text-anchor="middle">#631C6C</text>
+</svg>

@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitgem Menopause — Master Designer Brief</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="brand-tag">Vitgem Vitamins</div>
+    <h1>Menopause Support Gummies</h1>
+    <div class="sub">Amazon UK Gallery Redesign — Master Designer Brief & Style Audit</div>
+    <div class="meta">
+      <span>Version: <strong>v2</strong></span>
+      <span>Date: <strong>2026-05-25</strong></span>
+    </div>
+  </header>
+
+  <main>
+    <nav class="toc">
+      <h2>Table of Contents</h2>
+      <ol>
+        <li><a href="#universal-specs">Universal Specs</a></li>
+        <li><a href="#color-palette">Color Palette</a></li>
+        <li><a href="#designer-workflow">Designer Workflow</a></li>
+        <li><a href="#slot-1">Slot 1 — Main Image</a></li>
+        <li><a href="#slot-2">Slot 2 — Hero Feature</a></li>
+        <li><a href="#slot-3">Slot 3 — Ingredients</a></li>
+        <li><a href="#slot-4">Slot 4 — Body Benefits</a></li>
+        <li><a href="#slot-5">Slot 5 — Lifestyle</a></li>
+        <li><a href="#slot-6">Slot 6 — Trust Badges</a></li>
+        <li><a href="#slot-7">Slot 7 — Gummy Taste</a></li>
+        <li><a href="#style-audit">Style Audit</a></li>
+        <li><a href="#prompts">Prompt Guide</a></li>
+        <li><a href="#compliance">Compliance Checklist</a></li>
+      </ol>
+    </nav>
+
+    <!-- SECTION 1: UNIVERSAL SPECS -->
+    <section id="universal-specs">
+      <h2 class="section-title">Universal Specifications</h2>
+      <p>These specifications apply to all 7 slots of the Amazon listing image set. Consistent execution ensures high brand trust and compliance.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Requirement</th>
+            <th>Details / Assets</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Canvas Dimensions</strong></td>
+            <td>2048 × 2048 px (Square 1:1)</td>
+            <td>Retina resolution, crisp scaling</td>
+          </tr>
+          <tr>
+            <td><strong>Export Format</strong></td>
+            <td>sRGB JPEG (Quality 92, Optimized)</td>
+            <td>File size must remain &le; 1 MB</td>
+          </tr>
+          <tr>
+            <td><strong>Primary Font</strong></td>
+            <td><strong>DM Sans</strong> (Regular, Medium, Bold, Extra Bold)</td>
+            <td>Use for headlines, labels, doses, and badges</td>
+          </tr>
+          <tr>
+            <td><strong>Accent Font</strong></td>
+            <td><strong>Playfair Display Italic</strong> (Regular)</td>
+            <td>Use for specific italicized accent words</td>
+          </tr>
+          <tr>
+            <td><strong>Master Bottle cut</strong></td>
+            <td><a href="assets/master_bottle_cut.png" download class="kbd">Download master_bottle_cut.png</a></td>
+            <td>High-quality transparent PNG. Paste as-is.</td>
+          </tr>
+          <tr>
+            <td><strong>Gummy Assets</strong></td>
+            <td>
+              <a href="assets/gummies_L.png" download class="kbd">gummies_L.png</a> | 
+              <a href="assets/gummies_R.png" download class="kbd">gummies_R.png</a>
+            </td>
+            <td>Deep translucent purple gummies</td>
+          </tr>
+          <tr>
+            <td><strong>Brand Logos</strong></td>
+            <td>
+              <a href="assets/logo_white.png" download class="kbd">logo_white.png</a> | 
+              <a href="assets/logo_dark.png" download class="kbd">logo_dark.png</a>
+            </td>
+            <td>Logos for dark/light placements</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SECTION 2: COLOR PALETTE -->
+    <section id="color-palette">
+      <h2 class="section-title">Color Palette (Locked Tokens)</h2>
+      <p>Do not drift from these hex values. They define the premium medical-aesthetic brand identity.</p>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="chip" style="background: #5A2F4E;"></div>
+          <div class="name">Aubergine</div>
+          <div class="hex">#5A2F4E</div>
+        </div>
+        <div class="swatch">
+          <div class="chip" style="background: #3A1A2E;"></div>
+          <div class="name">Dark Body Text</div>
+          <div class="hex">#3A1A2E</div>
+        </div>
+        <div class="swatch">
+          <div class="chip" style="background: #D8B060;"></div>
+          <div class="name">Gold</div>
+          <div class="hex">#D8B060</div>
+        </div>
+        <div class="swatch">
+          <div class="chip" style="background: #F7EFF3; border: 1px solid #C7A6BC;"></div>
+          <div class="name">Blush Start</div>
+          <div class="hex">#F7EFF3</div>
+        </div>
+        <div class="swatch">
+          <div class="chip" style="background: #C7A6BC;"></div>
+          <div class="name">Mauve End</div>
+          <div class="hex">#C7A6BC</div>
+        </div>
+        <div class="swatch">
+          <div class="chip" style="background: #631C6C;"></div>
+          <div class="name">Gummy Purple</div>
+          <div class="hex">#631C6C</div>
+        </div>
+      </div>
+      <div style="margin-top: 24px; text-align: center;">
+        <img src="assets/color-swatches.svg" alt="Color Swatches Map" style="max-width: 100%; height: auto;">
+      </div>
+    </section>
+
+    <!-- SECTION 3: WORKFLOW -->
+    <section id="designer-workflow">
+      <h2 class="section-title">Designer Workflow (Scene-Without-Bottle Method)</h2>
+      <p>To avoid AI-distorted text, melting caps, or warped jars, follow this composition pipeline:</p>
+      <ul class="workflow">
+        <li><strong>Get the Background Scene:</strong> The user generates the background image using ChatGPT / Midjourney prompts (without the jar in the prompt).</li>
+        <li><strong>Place the Master Jar:</strong> Open the scene in Photoshop or Photopea. Drop <code class="kbd">master_bottle_cut.png</code> into the scene at the specified position.</li>
+        <li><strong>Add Lighting & Shadows:</strong> Draw a contact shadow beneath the bottle base (black, 50% opacity, multiply) and a soft floor reflection (30% opacity, Gaussian blur 20px). Blend lighting.</li>
+        <li><strong>Add Text Overlay:</strong> Add text according to the exact layout specs (font sizes, leading, and casing). All text must be live/vector typography, NOT AI-rendered.</li>
+        <li><strong>Export and Verify:</strong> Save as 2048&times;2048 sRGB JPEG at quality 92 (keep file size under 1 MB). Label as <code class="kbd">1.jpg</code> to <code class="kbd">7.jpg</code>.</li>
+      </ul>
+    </section>
+
+    <!-- SLOT 1 -->
+    <section id="slot-1" class="slot">
+      <span class="slot-number">Slot 1</span>
+      <h2 class="section-title">MAIN — Amazon Hero Shot</h2>
+      <div class="concept">Clean studio shot of the supplement jar on a pure white background (Amazon compliant).</div>
+      
+      <div class="reference-img">
+        <img src="assets/reference/1.jpg" alt="Slot 1 Reference">
+        <div class="caption">Current Reference — Pure White Main Image</div>
+      </div>
+
+      <h3>Text Specifications</h3>
+      <p><strong>NO TEXT ALLOWED</strong> (strict compliance with Amazon's Main Image requirements).</p>
+
+      <h3>Scene Composition</h3>
+      <p>Jar positioned exactly in the center. Occupies ~85% of the total canvas height. Add a subtle, realistic drop shadow underneath the bottle. Background must be pure white (#FFFFFF).</p>
+    </section>
+
+    <!-- SLOT 2 -->
+    <section id="slot-2" class="slot">
+      <span class="slot-number">Slot 2</span>
+      <h2 class="section-title">HERO — 14 Actives, 1 Daily Gummy</h2>
+      <div class="concept">Apothecary flatlay on marble, bottle in the center, surrounding botanicals, and a floating gummy.</div>
+
+      <div class="reference-img">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div>
+            <img src="assets/reference/2.jpg" alt="Slot 2 Current Choice">
+            <div class="caption">Current Choice (Placeholder)</div>
+          </div>
+          <div>
+            <img src="assets/reference/2.png" alt="Slot 2 ChatGPT Reference">
+            <div class="caption">ChatGPT Composition Reference</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Text Specifications</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Element</th>
+            <th>Verbatim Text</th>
+            <th>Font & Size</th>
+            <th>Color Token</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Headline</strong></td>
+            <td><code>14 ACTIVES,</code><br><code>1 DAILY GUMMY</code></td>
+            <td>DM Sans 800 Caps, <strong>140 px</strong> (line-height: 1.05)</td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+          <tr>
+            <td><strong>Alt. Headline</strong></td>
+            <td><code>14 ACTIVES · 1 DAILY GUMMY</code> (one line)</td>
+            <td>DM Sans 800 Caps, <strong>140 px</strong> (Gold separator dot <code>·</code>)</td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+          <tr>
+            <td><strong>Bottom Band</strong></td>
+            <td><code>SAGE · KSM-66® ASHWAGANDHA · AFFRON® SAFFRON · RED CLOVER</code></td>
+            <td>DM Sans 600 Caps, <strong>48 px</strong> (letter-spacing: 0.05em)</td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+          <tr>
+            <td><strong>Badges</strong></td>
+            <td><code>SUGAR FREE</code> (Left) | <code>VEGAN</code> (Right)</td>
+            <td>DM Sans 600 Caps, <strong>52 px</strong> (in 2px gold circles)</td>
+            <td>Gold (<code>#D8B060</code>)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>AI Generation Prompts (Scene Only)</h3>
+      <h3>Background Prompt</h3>
+      <pre class="prompt">soft pink-blush smooth gradient background from #F7EFF3 at top to #E8D5DD at bottom, warm directional light from upper left, premium spa editorial, no marble texture, no bokeh balls, no CGI, photoreal</pre>
+      <h3>Composition Prompt</h3>
+      <pre class="prompt">center area is EMPTY (a bottle will be composited there later), on the left side place a fresh sage leaf branch, 2 ripe raspberries, and dried saffron threads arranged on a cream-marble tabletop; on the right side mirror with a single red clover flower and a few dried ashwagandha root pieces; a single small deep purple gummy floats above the empty center area; soft warm key light from upper-left, depth of field foreground bokeh on herbs, photoreal 100mm macro Sony A7R IV editorial look, no bottle in frame</pre>
+    </section>
+
+    <!-- SLOT 3 -->
+    <section id="slot-3" class="slot">
+      <span class="slot-number">Slot 3</span>
+      <h2 class="section-title">INGREDIENTS — High-Strength Formula</h2>
+      <div class="concept">Jar placed in the left third, with 6 rounded callout-pills listing doses on the right side.</div>
+
+      <div class="reference-img">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div>
+            <img src="assets/reference/3.jpg" alt="Slot 3 Current Choice">
+            <div class="caption">Current Choice (Placeholder)</div>
+          </div>
+          <div>
+            <img src="assets/reference/3.png" alt="Slot 3 ChatGPT Reference">
+            <div class="caption">ChatGPT Composition Reference</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Text Specifications</h3>
+      <p><strong>Headline (Top Center):</strong> <code>HIGH-STRENGTH FORMULA</code> — DM Sans 800 Caps, <strong>130 px</strong>, Aubergine (<code>#5A2F4E</code>)</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Pill #</th>
+            <th>Verbatim Text</th>
+            <th>Font & Size</th>
+            <th>Color Token</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pill 1</td>
+            <td><code>Sage Leaf 75 mg — 10:1 (&equiv; 750 mg)</code></td>
+            <td>DM Sans 600, <strong>52 px</strong></td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+          <tr>
+            <td>Pill 2</td>
+            <td><code>KSM-66® Ashwagandha 150 mg</code></td>
+            <td>DM Sans 600, <strong>52 px</strong></td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+          <tr>
+            <td>Pill 3</td>
+            <td><code>Affron® Saffron 14 mg</code></td>
+            <td>DM Sans 600, <strong>52 px</strong></td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+          <tr>
+            <td>Pill 4</td>
+            <td><code>Red Clover 80 mg — 20% isoflavones</code></td>
+            <td>DM Sans 600, <strong>52 px</strong></td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+          <tr>
+            <td>Pill 5</td>
+            <td><code>Vitamin B6 — 200% NRV</code></td>
+            <td>DM Sans 600, <strong>52 px</strong></td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+          <tr>
+            <td>Pill 6</td>
+            <td><code>Selenium — 100% NRV</code></td>
+            <td>DM Sans 600, <strong>52 px</strong></td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>AI Generation Prompts (Scene Only)</h3>
+      <h3>Background Prompt</h3>
+      <pre class="prompt">soft cream beige seamless studio background, subtle warm light from upper-left, no marble texture, no plants visible, premium editorial product studio, photoreal</pre>
+      <h3>Composition Prompt</h3>
+      <pre class="prompt">left third of canvas is reserved for the bottle (will be composited), bottom-left has a botanical apothecary still-life: real sage leaf branch, dried saffron threads, ashwagandha root pieces, and a red clover flower arranged naturally on cream beige surface; right two-thirds of canvas is EMPTY (callout pills will be added in post), photoreal 100mm macro Sony A7R IV, warm soft key light from upper left</pre>
+    </section>
+
+    <!-- SLOT 4 -->
+    <section id="slot-4" class="slot">
+      <span class="slot-number">Slot 4</span>
+      <h2 class="section-title">BENEFITS — Support, Head to Toe</h2>
+      <div class="concept">Confident woman (~50, in ivory silk top covering shoulders) on blush-mauve bg with 5 body callouts.</div>
+
+      <div class="reference-img">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div>
+            <img src="assets/reference/4.jpg" alt="Slot 4 Current Choice">
+            <div class="caption">Current Choice (Placeholder)</div>
+          </div>
+          <div>
+            <img src="assets/reference/8-1.png" alt="Slot 4 Alternative Reference">
+            <div class="caption">Alternative Body-Map Source (8-1.png)</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Text Specifications</h3>
+      <p><strong>Headline (Top Center):</strong> <code>SUPPORT, HEAD TO TOE</code> — DM Sans 800 Caps, <strong>130 px</strong>, Aubergine (<code>#5A2F4E</code>)</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Verbatim Callout Text</th>
+            <th>Font & Size</th>
+            <th>Color Token</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Head top</td>
+            <td><code>MOOD &</code><br><code>HORMONE BALANCE</code></td>
+            <td>DM Sans 700 Caps, <strong>44 px</strong></td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+          <tr>
+            <td>Temple</td>
+            <td><code>FOCUS</code></td>
+            <td>DM Sans 700 Caps, <strong>44 px</strong></td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+          <tr>
+            <td>Throat</td>
+            <td><code>THYROID FUNCTION</code></td>
+            <td>DM Sans 700 Caps, <strong>44 px</strong></td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+          <tr>
+            <td>Collarbone</td>
+            <td><code>STRONG BONES</code></td>
+            <td>DM Sans 700 Caps, <strong>44 px</strong></td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+          <tr>
+            <td>Chest</td>
+            <td><code>ENERGY &</code><br><code>LESS FATIGUE</code></td>
+            <td>DM Sans 700 Caps, <strong>44 px</strong></td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>AI Generation Prompts (Scene Only)</h3>
+      <h3>Background Prompt</h3>
+      <pre class="prompt">soft pink-mauve smooth gradient background from #E5C8D2 to #C7A6BC, warm rim light from right, no marble, no plants, no glow, no halos, photoreal editorial portrait studio</pre>
+      <h3>Composition Prompt</h3>
+      <pre class="prompt">three-quarter portrait of a confident, calm woman approximately 50 years old, natural minimal makeup, soft warm skin tones, hair tied back loosely with a few strands framing the face, wearing a wide-cut ivory silk top with mauve undertone that covers the shoulders fully (NOT bare-shoulders, NOT topless, NOT bra-revealing), slight head tilt, soft direct gaze toward camera, gentle Mona-Lisa smile, premium beauty editorial light Sony A7R IV 85mm f/2.8, single soft key light from upper-right, no plants, no extra props, generous negative space on left and right sides for callout labels</pre>
+    </section>
+
+    <!-- SLOT 5 -->
+    <section id="slot-5" class="slot">
+      <span class="slot-number">Slot 5</span>
+      <h2 class="section-title">LIFESTYLE — Daily Support</h2>
+      <div class="concept">Woman (~50) in bright marble kitchen resting against counter. Jar placed lower-left.</div>
+
+      <div class="reference-img">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div>
+            <img src="assets/reference/5.jpg" alt="Slot 5 Current Choice">
+            <div class="caption">Current Choice (Placeholder)</div>
+          </div>
+          <div>
+            <img src="assets/reference/5.png" alt="Slot 5 ChatGPT Reference">
+            <div class="caption">ChatGPT Kitchen Composition Reference</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Text Specifications</h3>
+      <p><strong>Headline (Top Center):</strong> Mixed Typography Layout</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Text Segment</th>
+            <th>Font Family</th>
+            <th>Font Weight & Style</th>
+            <th>Size</th>
+            <th>Color Token</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>Daily support through perimenopause,</code></td>
+            <td>DM Sans</td>
+            <td>Bold (600)</td>
+            <td><strong>64 px</strong></td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+          <tr>
+            <td><code>menopause</code></td>
+            <td>Playfair Display</td>
+            <td>Regular Italic</td>
+            <td><strong>88 px</strong> (Enlarged)</td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+          <tr>
+            <td><code>& beyond</code></td>
+            <td>DM Sans</td>
+            <td>Bold (600)</td>
+            <td><strong>64 px</strong></td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>AI Generation Prompts (Scene Only)</h3>
+      <h3>Background Prompt</h3>
+      <pre class="prompt">bright modern kitchen with white marble counter and white marble splashback, soft natural window light from right, blurred round wall mirror in background, faint blurred greenery (rosemary or eucalyptus sprig) in vase background, premium editorial lifestyle, photoreal Sony A7R IV 50mm f/2.8</pre>
+      <h3>Composition Prompt</h3>
+      <pre class="prompt">center-right of frame: woman approximately 50 years old, natural makeup, sun-kissed mid-blonde hair shoulder-length with side parting, wearing a clean white sleeveless tank top covering the shoulders (NOT bare-shoulders, NOT bra), leaning forward on the marble counter with her hand resting against her cheek in a relaxed thoughtful pose, soft genuine half-smile, looking gently toward camera, marble counter takes foreground lower third, leave space lower-left of the counter for bottle composite, photoreal editorial lifestyle, soft warm window light, shallow DOF</pre>
+    </section>
+
+    <!-- SLOT 6 -->
+    <section id="slot-6" class="slot">
+      <span class="slot-number">Slot 6</span>
+      <h2 class="section-title">TRUST — Trusted British Quality</h2>
+      <div class="concept">Jar standing on a circular granite pedestal with 6 trust badges along the bottom.</div>
+
+      <div class="reference-img">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div>
+            <img src="assets/reference/6.jpg" alt="Slot 6 Current Choice">
+            <div class="caption">Current Choice (Placeholder)</div>
+          </div>
+          <div>
+            <img src="assets/reference/6.png" alt="Slot 6 ChatGPT Reference">
+            <div class="caption">ChatGPT Pedestal Composition Reference</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Text Specifications</h3>
+      <p><strong>Headline (Top Center):</strong> <code>TRUSTED BRITISH QUALITY</code> — DM Sans 800 Caps, <strong>130 px</strong>, Aubergine (<code>#5A2F4E</code>)</p>
+      <p><strong>6 Bottom Badges (Row):</strong> Filled Aubergine circles (<code>#5A2F4E</code>) with white line icons & white text (DM Sans 700 Caps, <strong>38 px</strong>):</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Badge #</th>
+            <th>Verbatim Text</th>
+            <th>Required Icon Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Badge 1</td>
+            <td><code>MADE IN THE UK</code></td>
+            <td>Pin / Shield outline (No UK flags!)</td>
+          </tr>
+          <tr>
+            <td>Badge 2</td>
+            <td><code>GMP STANDARDS</code></td>
+            <td>Gear + Checkmark</td>
+          </tr>
+          <tr>
+            <td>Badge 3</td>
+            <td><code>BATCH TESTED</code></td>
+            <td>Flask / Beaker</td>
+          </tr>
+          <tr>
+            <td>Badge 4</td>
+            <td><code>VEGAN</code></td>
+            <td>Botanical Leaf</td>
+          </tr>
+          <tr>
+            <td>Badge 5</td>
+            <td><code>SUGAR FREE</code></td>
+            <td>Sugar cube crossed out</td>
+          </tr>
+          <tr>
+            <td>Badge 6</td>
+            <td><code>NO HRT, NO HORMONES</code></td>
+            <td>HRT symbol crossed out (2 lines)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>AI Generation Prompts (Scene Only)</h3>
+      <h3>Background Prompt</h3>
+      <pre class="prompt">soft pink-mauve smooth gradient background from #F7EFF3 at top to #C7A6BC at bottom, gentle warm spotlight from top, no marble texture, no plants, no bokeh, premium editorial studio</pre>
+      <h3>Composition Prompt</h3>
+      <pre class="prompt">center of frame: an empty circular warm-beige granite stone pedestal (cylindrical disc, ~35% canvas height), positioned at lower-center, soft contact shadow on ground, the bottle will be composited on top of this pedestal later, leave bottom 20% of canvas empty for trust-badge row, no other elements in frame, photoreal product studio shot</pre>
+    </section>
+
+    <!-- SLOT 7 -->
+    <section id="slot-7" class="slot">
+      <span class="slot-number">Slot 7</span>
+      <h2 class="section-title">GUMMY — Just Two A Day</h2>
+      <div class="concept">Appetizing food shot. Macro purple gummies & fresh raspberries splashing in red juice. No bottle.</div>
+
+      <div class="reference-img">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div>
+            <img src="assets/reference/7.jpg" alt="Slot 7 Current Choice">
+            <div class="caption">Current Choice (Placeholder)</div>
+          </div>
+          <div>
+            <img src="assets/reference/7-1.jpg" alt="Slot 7 Alternative Choice">
+            <div class="caption">Raspberry Splash Source (7-1.jpg)</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Text Specifications</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Element</th>
+            <th>Verbatim Text</th>
+            <th>Font & Size</th>
+            <th>Color Token</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Logo Top-Left</strong></td>
+            <td><code>Vitgem</code> (Header) + <code>VITAMINS</code> (Subtitle)</td>
+            <td>DM Sans Bold <strong>80 px</strong> / Playfair Italic <strong>24 px</strong></td>
+            <td>Aubergine (<code>#5A2F4E</code>)</td>
+          </tr>
+          <tr>
+            <td><strong>Main Caption</strong></td>
+            <td><code>Just two a day</code></td>
+            <td>Playfair Display Italic Regular, <strong>96 px</strong></td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+          <tr>
+            <td><strong>Sub-Caption</strong></td>
+            <td><code>RASPBERRY · 30-DAY SUPPLY</code></td>
+            <td>DM Sans 700 Caps, <strong>44 px</strong> (0.08em spacing)</td>
+            <td>Dark Body (<code>#3A1A2E</code>)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>AI Generation Prompts (Scene Only)</h3>
+      <h3>Background Prompt</h3>
+      <pre class="prompt">soft cream-blush gradient background from #F8EFE8 at top to #F0DDD8 at bottom, warm soft light, no marble, no plants, premium food photography editorial</pre>
+      <h3>Composition Prompt</h3>
+      <pre class="prompt">macro close-up of 2 deep purple gummies (deep purple #631C6C, NOT raspberries, NOT orange, NOT red) sitting in a crown splash of raspberry juice, 2 fresh raspberries flanking the gummies on left side, juice droplets mid-air around the splash, raspberry juice puddle on the ground in foreground, shallow depth of field, Sony A7R IV 100mm macro f/8, photoreal food beauty editorial light, NO bottle in frame</pre>
+    </section>
+
+    <!-- STYLE AUDIT SECTION -->
+    <section id="style-audit">
+      <h2 class="section-title">Brand Consistency Style Audit</h2>
+      <p>While the images share the same typography and model jar, color balances need slight adjustments to feel completely cohesive when viewed side-by-side on Amazon UK.</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Slot</th>
+            <th>Bg Dominant</th>
+            <th>Lighting Style</th>
+            <th>Style Category</th>
+            <th>Aubergine</th>
+            <th>Gold Accent</th>
+            <th>Type Style</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1 Main</strong></td>
+            <td>Pure White</td>
+            <td>Soft Front-Down</td>
+            <td>Studio Render</td>
+            <td>✅ Label</td>
+            <td>✅ Label</td>
+            <td>Label Only</td>
+          </tr>
+          <tr>
+            <td><strong>2 Hero</strong></td>
+            <td>Marble Cream</td>
+            <td>Warm Key (Left)</td>
+            <td>Tabletop Flatlay</td>
+            <td>✅ Headline</td>
+            <td>✅ Badges/Band</td>
+            <td>DM Sans+Playfair</td>
+          </tr>
+          <tr>
+            <td><strong>3 Ingr</strong></td>
+            <td>Beige Stone</td>
+            <td>Soft Top</td>
+            <td>Tabletop Botanical</td>
+            <td>✅ Pills/Header</td>
+            <td>✅ Pills/Icons</td>
+            <td>DM Sans</td>
+          </tr>
+          <tr>
+            <td><strong>4 Benefits</strong></td>
+            <td>Pink-Mauve Grad</td>
+            <td>Soft Front</td>
+            <td>Portrait Studio</td>
+            <td>✅ Callouts/Header</td>
+            <td>❌ None</td>
+            <td>DM Sans</td>
+          </tr>
+          <tr>
+            <td><strong>5 Life</strong></td>
+            <td>White Marble</td>
+            <td>Window Light (Right)</td>
+            <td>Lifestyle Kitchen</td>
+            <td>✅ Headline</td>
+            <td>❌ None</td>
+            <td>DM Sans+Playfair</td>
+          </tr>
+          <tr>
+            <td><strong>6 Trust</strong></td>
+            <td>Blush-Mauve Grad</td>
+            <td>Soft Down Spotlight</td>
+            <td>Studio Pedestal</td>
+            <td>✅ Header/Badges</td>
+            <td>✅ Icons/Pedestal</td>
+            <td>DM Sans</td>
+          </tr>
+          <tr>
+            <td><strong>7 Gummy</strong></td>
+            <td>Cream+Raspberry</td>
+            <td>Warm Splash</td>
+            <td>Macro Food Splash</td>
+            <td>❌ None</td>
+            <td>❌ None</td>
+            <td>DM Sans+Playfair</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="alert">
+        <strong>Style Adjustments for Designer:</strong>
+        <ul>
+          <li><strong>Slot 5 (Kitchen):</strong> Warm up the temperature (+5), reduce exposure (-3), and add a soft aubergine vignette to blend the bright marble background with the other warmer slides.</li>
+          <li><strong>Slot 4 (Benefits):</strong> Soften the background mauve gradient slightly toward the beige tones of Slot 3 to bridge the two technical slots.</li>
+          <li><strong>Gold Accents:</strong> Add hairline gold accents (#D8B060) to Slot 4 (callout lines) and Slot 5 (line under headline) to maintain the premium gold thread.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROMPT GUIDE SECTION -->
+    <section id="prompts">
+      <h2 class="section-title">How to Use Prompts in ChatGPT</h2>
+      <p>When generating backgrounds, copy the prompts from this brief verbatim. For best results, follow this method:</p>
+      <ol>
+        <li>Upload the master render <code class="kbd">1.jpg</code> to ChatGPT to establish the bottle visual style.</li>
+        <li>Paste the <strong>Background Prompt</strong> and <strong>Composition Prompt</strong> together.</li>
+        <li>If the AI renders a jar or text despite the prompts, add: <em>"Remember: Do NOT render any jar, bottle, container, or text in the scene. The center must be blank."</em></li>
+        <li>Select the best render, download it, and hand it to the designer.</li>
+      </ol>
+    </section>
+
+    <!-- COMPLIANCE CHECKLIST SECTION -->
+    <section id="compliance">
+      <h2 class="section-title">Compliance & QA Checklist</h2>
+      <p>Before exporting the final JPEGs, check every image against the compliance rules:</p>
+      <ul class="compliance-list">
+        <li><strong>Translucent Purple Gummies:</strong> Gummies must be grape-purple (#631C6C) and dome-shaped. Never orange, red, or light pink.</li>
+        <li><strong>No UK Flags:</strong> Do not add flags or emblem maps. Trust is conveyed via the badges.</li>
+        <li><strong>UK Manufacture Claim:</strong> Do not write "Manufactured in the UK". Use the verbatim string: <code>MADE IN THE UK</code>.</li>
+        <li><strong>No Medical Claims:</strong> Do not use medical terms like "HRT", "relief", "cure", "treat", or "menopause symptoms". Stick strictly to authorized claims (Slot 4).</li>
+        <li><strong>No Text Spelled Wrong:</strong> Double check that KSM-66® and Affron® saffron include the registered trademark symbols and are spelled correctly.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Vitgem Menopause Support Gummies © 2026 · Designed for Amazon UK Gallery
+  </footer>
+
+</body>
+</html>
