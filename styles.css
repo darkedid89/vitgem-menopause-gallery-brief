@@ -587,28 +587,29 @@ code {
   gap: 8px;
 }
 .download-cta {
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
-  gap: 12px;
-  background: linear-gradient(135deg, var(--gold-deep) 0%, #9C7A2E 100%);
-  color: #FFFFFF;
-  padding: 18px 36px;
-  border-radius: 12px;
-  text-decoration: none;
+  gap: 14px;
+  background: #FFFFFF !important;
+  color: #5A2F4E !important;
+  padding: 20px 44px;
+  border-radius: 14px;
+  text-decoration: none !important;
   font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.06em;
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  border: 2px solid var(--gold);
-  box-shadow: 0 4px 24px rgba(216, 176, 96, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25);
-  text-shadow: 0 1px 2px rgba(58, 26, 46, 0.35);
+  border: 3px solid #D8B060 !important;
+  box-shadow: 0 6px 32px rgba(0, 0, 0, 0.25), 0 0 0 4px rgba(216, 176, 96, 0.18);
   transition: all 0.25s ease;
   position: relative;
 }
 .download-cta:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 32px rgba(216, 176, 96, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  background: var(--gold) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 10px 40px rgba(216, 176, 96, 0.55), 0 0 0 4px rgba(216, 176, 96, 0.28);
 }
 .download-cta .icon {
   font-size: 22px;
@@ -616,15 +617,16 @@ code {
 }
 .download-cta-sub {
   font-family: 'Playfair Display', serif;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  color: #FFFFFF;
   letter-spacing: 0.02em;
+  opacity: 0.95;
+  margin-top: 4px;
 }
 footer .download-cta {
-  background: linear-gradient(135deg, var(--aubergine) 0%, var(--aubergine-deep) 100%);
-  color: #FFFFFF;
-  border-color: var(--gold);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF !important;
+  color: #5A2F4E !important;
+  border-color: #D8B060 !important;
 }
 footer .download-cta-sub { color: rgba(58, 26, 46, 0.7); }
 
